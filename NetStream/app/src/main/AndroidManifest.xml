@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove" />
+    <application android:name=".NetStreamApp" android:label="NetStream" android:icon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.NetStream" android:allowBackup="false" android:supportsRtl="true" android:usesCleartextTraffic="false">
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="${analyticsEnabled}" />
+        <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false" />
+        <activity android:name=".MainActivity" android:exported="true" android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+    </application>
+</manifest>

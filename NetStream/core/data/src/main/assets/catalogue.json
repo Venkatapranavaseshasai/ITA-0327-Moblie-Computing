@@ -1,0 +1,20 @@
+[
+  {
+    "id":"sintel", "sortOrder":0, "title":"Sintel", "protocol":"DASH",
+    "streamUrl":"https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd",
+    "description":"A lone traveller crosses a frozen wilderness in search of the dragon she once saved.",
+    "genre":"Fantasy", "creator":"Blender Foundation", "year":2010, "durationSeconds":888, "posterKey":"sintel"
+  },
+  {
+    "id":"tears-of-steel", "sortOrder":1, "title":"Tears of Steel", "protocol":"HLS",
+    "streamUrl":"https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+    "description":"In a future Amsterdam, a team of survivors revisits a memory that could change the fate of their city.",
+    "genre":"Science fiction", "creator":"Blender Foundation", "year":2012, "durationSeconds":734, "posterKey":"steel"
+  },
+  {
+    "id":"big-buck-bunny", "sortOrder":2, "title":"Big Buck Bunny", "protocol":"HLS",
+    "streamUrl":"https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "description":"A gentle giant's quiet morning takes a turn when three mischievous rodents disturb the forest.",
+    "genre":"Animation", "creator":"Blender Foundation", "year":2008, "durationSeconds":635, "posterKey":"bunny"
+  }
+]
